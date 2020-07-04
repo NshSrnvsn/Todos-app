@@ -1,0 +1,11 @@
+<h1>Todo</h1>
+<input type="text" [(ngModel)]="todo" /><button (click)="onsave()">Save</button>
+<h1>My Todos</h1>
+<ul *ngFor="let to of todos">
+  <li>
+   <input type="text" [value]="to">
+    <button style="background-color: red;" (click)="ondelete(to)">
+      Delete
+    </button>
+  </li>
+</ul>

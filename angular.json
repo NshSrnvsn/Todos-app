@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "NgGirls"
+    }
+  },
+  "defaultProject": "NgGirls",
+  "cli": {
+    "analytics": false
+  }
 }
